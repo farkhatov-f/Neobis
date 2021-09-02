@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-140dp"
+        android:src="@drawable/volunteer" />
+
+    <TextView
+        android:id="@+id/be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp"
+        android:text="Be"
+        android:textColor="#e5de6c"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/be"
+        android:paddingTop="8dp"
+        android:textColor="#ff008d"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:text="Volunteer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/be"
+        android:paddingLeft="16dp"
+        android:text="*The online platform is dedicated to inspire motivation towards volunteerism and unite all organizations providing volunteer opportunities within Kyrgyzstan and beyond. Both website and the app provide the best volunteering experience by defining the user interests and including a rewarding system for successful completion of volunteer work."
+        android:textColor="@android:color/secondary_text_dark_nodisable"
+        android:textSize="16sp"
+        android:textStyle="italic|bold" />
+
+</RelativeLayout>
